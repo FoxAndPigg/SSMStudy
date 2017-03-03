@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d4382c8c-3d80-4338-8ee1-85292f77d242" name="Default" comment="init">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/log4j2.xml" />
+    <list default="true" id="d4382c8c-3d80-4338-8ee1-85292f77d242" name="Default" comment="ssm init&#10;http://www.jianshu.com/p/5124eef40bf0 第一章">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/gosky/ssmstudy/controller/ViewController.java" afterPath="$PROJECT_DIR$/src/main/java/org/gosky/ssmstudy/controller/ViewController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ssmstudy.iml" afterPath="$PROJECT_DIR$/ssmstudy.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
+            <state relative-caret-position="240">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -52,9 +44,14 @@
       <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="1440">
+              <caret line="72" column="65" lean-forward="false" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
+              <folding>
+                <element signature="e#947#963#0" expanded="true" />
+                <element signature="e#1001#1014#0" expanded="true" />
+                <element signature="e#1057#1075#0" expanded="true" />
+                <element signature="e#1118#1136#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,6 +61,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -79,41 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j2.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
               <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="28" column="11" lean-forward="false" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -165,13 +142,13 @@
         <option value="$PROJECT_DIR$/src/main/java/org/gosky/ssmstudy/controller/ViewController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/spring/spring-service.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -299,6 +276,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssmstudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ssmstudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -934,7 +941,7 @@
       <workItem from="1488433574409" duration="1979000" />
       <workItem from="1488442174681" duration="4536000" />
       <workItem from="1488447940036" duration="2973000" />
-      <workItem from="1488455023538" duration="2511000" />
+      <workItem from="1488455023538" duration="3750000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1488445989086</created>
@@ -950,11 +957,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488446760744</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ssm init&#10;http://www.jianshu.com/p/5124eef40bf0 第一章">
+      <created>1488508969693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488508969693</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11999000" />
+    <option name="totallyTimeSpent" value="13238000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -967,7 +981,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1004" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -983,36 +997,55 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34988713" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16453674" sideWeight="0.49548534" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16365689" sideWeight="0.5045147" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="ssm init&#10;http://www.jianshu.com/p/5124eef40bf0 第一章" />
+    <option name="LAST_COMMIT_MESSAGE" value="ssm init&#10;http://www.jianshu.com/p/5124eef40bf0 第一章" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1131,6 +1164,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1168,34 +1202,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="28" column="47" lean-forward="false" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="56" lean-forward="true" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1208,10 +1218,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="53" column="61" lean-forward="true" selection-start-line="53" selection-start-column="61" selection-end-line="53" selection-end-column="61" />
+        <state relative-caret-position="160">
+          <caret line="8" column="50" lean-forward="true" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="72" column="65" lean-forward="false" selection-start-line="72" selection-start-column="65" selection-end-line="72" selection-end-column="65" />
+          <folding>
+            <element signature="e#947#963#0" expanded="true" />
+            <element signature="e#1001#1014#0" expanded="true" />
+            <element signature="e#1057#1075#0" expanded="true" />
+            <element signature="e#1118#1136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
           <folding />
         </state>
       </provider>
