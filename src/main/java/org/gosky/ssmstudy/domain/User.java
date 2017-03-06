@@ -108,4 +108,19 @@ public class User implements Serializable {
     public void setUsed(boolean used) {
         this.used = used;
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", loginId='" + loginId + '\'' +
+                ", pwd='" + pwd + '\'' +
+                ", duty='" + duty + '\'' +
+                ", age=" + age +
+                ", cellNumber='" + cellNumber + '\'' +
+                ", photoUrl='" + photoUrl + '\'' +
+                ", used=" + used +
+                '}';
+    }
 }

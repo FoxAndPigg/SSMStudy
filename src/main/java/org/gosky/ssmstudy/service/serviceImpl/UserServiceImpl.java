@@ -19,4 +19,8 @@ public class UserServiceImpl implements UserService {
         result = userDao.add(user);
         System.out.println("result" + result);
     }
+
+    public User get(String loginId){
+        return userDao.findOneById(loginId);
+    }
 }

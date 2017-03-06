@@ -17,9 +17,18 @@ public class UserController {
     @Autowired
     private UserServiceImpl userService;
 
-    @RequestMapping(value = "/add", method = RequestMethod.POST)
+    @RequestMapping(method = RequestMethod.POST)
     @ResponseBody
     public void register(User user) {
+        System.out.println(user.toString());
         userService.add(user);
     }
+
+    @RequestMapping(method = RequestMethod.GET)
+    @ResponseBody
+    public User get(String loginId){
+        return userService.get(loginId);
+    }
+
+
 }
